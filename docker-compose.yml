@@ -1,0 +1,11 @@
+
+
+services:
+ v2:
+  build: .
+  container_name: v2
+
+  
+  
+  env_file:
+    - .env
